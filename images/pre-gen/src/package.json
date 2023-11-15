@@ -1,0 +1,18 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "execute": "node --loader ts-node/esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "canvas-toBlob.js": "github:eligrey/canvas-toBlob.js",
+    "paper": "^0.12.17"
+  }
+}
